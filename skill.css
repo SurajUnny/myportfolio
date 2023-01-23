@@ -1,0 +1,151 @@
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+}
+header h2 {
+    color: rgba(236, 240, 241,1.0);
+    font-size:30px;
+    margin-bottom: 130px;
+}
+/* header section end */
+
+
+
+
+/* main section start */
+main {
+    display: flex;
+    flex-direction: row;
+    /* margin: 70px 0 300px 0; */
+}
+
+/* left side start */
+main .left {
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin: 0 40px 0 150px;
+    flex-wrap: wrap; 
+}
+main .left .info {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
+    padding: 20px;
+    border-radius: 10px;
+}
+main .left .info > h2 {
+    color: rgba(0, 0, 0, .6);
+}
+main .left .info > h2 {
+    color: rgba(0, 0, 0, .6);
+}
+main .left .info > h3 {
+    color: rgba(0, 0, 0, .6);
+}
+main .left .info .progress {
+    width: 90%;
+    height: 9px;
+    background-color: #dcdde1;
+    position: relative;
+}
+main .left .info .progress::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 9px;
+    background-color: rgba(39, 174, 96,1.0);
+}
+main .left .info .progress1 {
+    width: 90%;
+    height: 9px;
+    background-color: #dcdde1;
+    position: relative;
+}
+main .left .info .progress1::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 9px;
+    background-color: rgba(39, 174, 96,1.0);
+}
+main .left .info .progress2 {
+    width: 90%;
+    height: 9px;
+    background-color: #dcdde1;
+    position: relative;
+}
+main .left .info .progress2::after {
+    content: '';
+    position: absolute;
+    width: 35%;
+    height: 9px;
+    background-color: rgba(39, 174, 96,1.0);
+}
+main .left .info > p {
+    border-left: 2px solid black;
+    margin-left: 30px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* left side end */
+
+/* right side start */
+main .right {
+    flex-grow: 2;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+}
+main .right h2 {
+    font-size: 35px;
+}
+main .right .des h3 {
+    font-size: 25px;
+    position: relative;
+}
+main .right .des > p {
+    text-align: justify;
+    width: 70%;  
+}
+main .right > p {
+    font-weight: bold;
+}
+main .right .des {
+    border-left: 5px solid rgba(39, 174, 96, .4);
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+main .right .des h3::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 5px solid rgba(39, 174, 96, 1);
+    top: 18%;
+    left: -43px;
+    transform: rotate(45deg);
+}
+main .right button {
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, rgba(46, 204, 113,1.0), rgba(39, 174, 96,1.0));
+}
+main .right button:hover {
+    background-image: linear-gradient(to left, rgba(46, 204, 113,1.0), rgba(39, 174, 96,1.0));
+}
+/* right side end */
+
+/* main section end */
+
+
+.container{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.home{
+    font-weight: bold;
+}
